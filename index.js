@@ -1,3 +1,5 @@
+const knex = require('./src/db');
+
 const express = require('express');
 const app = express();
 const port = 3010;
